@@ -1,0 +1,37 @@
+.header{
+    position: relative;
+    &__top{
+        height: 500px;
+        position: relative;
+        &-slider1{
+            background: url("../../images/Header.jpg") no-repeat center center / cover;
+        }
+        &-slider2{
+            background: url("../../images/header2.jpg") no-repeat center center / cover;
+        }
+        &-slider3{
+            background: url("../../images/header3.jpg") no-repeat center center / cover;
+        }
+    }
+    &__title{
+        font-size: 45px;
+        color: #FFFFFF;
+        text-align: left;
+     
+        @media (max-width: 768px) {
+            font-size: 30px;
+        }
+    }
+    &__text{
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 20px;
+        color: #FFFFFF;
+    }
+    &__left{
+        position:absolute;
+        top: 20%;
+    }
+    
+   
+}
